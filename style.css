@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ramaraja&family=Shadows+Into+Light&family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Balsamiq+Sans&family=Bebas+Neue&family=Fredoka+One&family=Lobster&family=Quintessential&family=Righteous&family=Ropa+Sans:ital@1&display=swap');
 *{
     padding: 0px;
     margin: 0px;
@@ -191,8 +192,6 @@ button:hover{
 }
 
 .lcard button:hover{
-    height: 40px;
-    width: 110px;
     background-color: red;
     border-radius: 8px;
     color: white;
@@ -227,8 +226,16 @@ p {
     font-size: 13px;
     gap: 10px;
 }
+element.style {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .data h1{
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Aclonica', sans-serif;
+
 }
 .data h4 {
     color: black;
@@ -253,7 +260,13 @@ p {
     color: white;
     transition: 0.5s;
 }
-
+.rightt{
+        display: flex;
+        flex-direction: column;
+        /* height: 203px; */
+        width: 50%;
+    
+}
 
 
 
@@ -281,7 +294,6 @@ p {
         width: 310px;
         background-color: #daf6f9;
         margin-top: 10px;
-        margin-left: 0px;
         border-radius: 8px;
     }
     .info h1 {
@@ -317,7 +329,7 @@ p {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 418px;
+        /* width: 400px; */
         background-color: #e8e8e8;
     }
     h4 {
@@ -337,13 +349,14 @@ p {
     }
     .data h4 {
         color: black;
-        margin-top: 10px;
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
+        font-family: 'Quintessential', cursive;
+        font-weight: bolder;
     }
     .data p {
         text-align: center;
-        font-size: 12px;
+        font-size: 10px;
     }
     .section3 h1 {
         text-align: center;
@@ -359,19 +372,55 @@ p {
         box-shadow: rgb(128 128 128 / 46%) 0px 0px 8px;
         background-color: white;
         padding: -25px -21px;
-        gap: 40px;
+        gap: 12px;
         padding: 6px;
     }
     .data h1 {
-        font-family: 'Ubuntu Mono', monospace;
-        font-size: 24px;
+        font-family: 'Fredoka One', cursive;
+        font-size: 16px;
+        margin-bottom: 10px;
         text-align: center;
+    }
+    .lefft{
+       
+            width: 336px;
+        
+    }
+    .smdata {
+        display: flex;
+        font-size: 13px;
+    }
+    .data {
+        display: flex;
+        flex-direction: column;
     }
     .rightt{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .ban-img img {
+        margin-left: 29px;
+    }
+    .all {
+        margin-left: 28px;
+    }
+    .lefft img{
+        
+
+    height: 248px;
+
+
+    }
+    
+    .lcard button {
+        background-color: rgba(255, 0, 0, 0.299);
+        height: 35px;
+        width: 86px;
+        border-radius: 8px;
+        font-weight: none;
+        font-size: 10px;
     }
     /* .lcard {
         display: flex;
