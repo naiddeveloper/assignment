@@ -343,13 +343,13 @@ p {
     .smdata p{
         font-size: 10px;
     }
-    .data h4 {
-        color: black;
-        font-size: 16px;
-        text-align: center;
-        font-family: 'Quintessential', cursive;
-        font-weight: bolder;
-    }
+   .data h4 {
+    color: black;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Quintessential', cursive;
+    font-weight: bolder;
+}
     .data p {
         text-align: center;
         font-size: 10px;
@@ -371,12 +371,12 @@ p {
         gap: 12px;
         padding: 6px;
     }
-    .data h1 {
-        font-family: 'Fredoka One', cursive;
-        font-size: 16px;
-        margin-bottom: 10px;
-        text-align: center;
-    }
+   .data h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
    .smdata {
     display: flex;
     font-size: 13px;
