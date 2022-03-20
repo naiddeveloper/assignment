@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ramaraja&family=Shadows+Into+Light&family=Ubuntu+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Balsamiq+Sans&family=Bebas+Neue&family=Fredoka+One&family=Lobster&family=Quintessential&family=Righteous&family=Ropa+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Berkshire+Swash&family=Gochi+Hand&family=Mate+SC&family=Oleo+Script&family=Oregano&family=Righteous&family=Sansita+Swashed:wght@300&family=Staatliches&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
@@ -108,12 +109,16 @@ button:hover{
     background-color: #e8e8e8;
  
 }
+
 .section2 h1{
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 40px;
     text-align: center;
+    font-family: 'Gochi Hand', cursive;
+    letter-spacing: 2px;
 }
+
 .cards {
     display: flex;
     justify-content: center;
@@ -128,15 +133,14 @@ button:hover{
     width: 250px;
     box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.578);
     display: flex;
-    gap:15px;
     flex-direction: column;
     justify-content: center;
     align-items:flex-start;
     background-color: white;
 }
-.card img {
-    height: 46px;
-    width: 63px;
+.card img{
+    height: 60px;
+    width: 80px;
     padding-left: 10px;
 }
 .card p{
@@ -149,6 +153,10 @@ button:hover{
    justify-content: center;
    align-items: center;
    background-color: #e8e8e8;
+}
+.section3 h1 {
+    font-family: 'Gochi Hand', cursive;
+    letter-spacing: 1px;
 }
 .section3 h1 {
     text-align: center;
@@ -227,7 +235,12 @@ p {
     font-size: 13px;
     gap: 10px;
 }
-
+element.style {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
 
 .data h1{
     font-family: 'Aclonica', sans-serif;
@@ -343,13 +356,13 @@ p {
     .smdata p{
         font-size: 10px;
     }
- .data h4 {
-    color: black;
-    font-size: 14px;
-    text-align: center;
-    font-family: 'Quintessential', cursive;
-    font-weight: bolder;
-}
+    .data h4 {
+        color: black;
+        font-size: 16px;
+        text-align: center;
+        font-family: 'Quintessential', cursive;
+        font-weight: bolder;
+    }
     .data p {
         text-align: center;
         font-size: 10px;
@@ -371,17 +384,17 @@ p {
         gap: 12px;
         padding: 6px;
     }
- .data h1 {
-    font-family: 'Fredoka One', cursive;
-    font-size: 14px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-   .smdata {
-    display: flex;
-    font-size: 13px;
-    width: 375px;
-}
+    .data h1 {
+        font-family: 'Fredoka One', cursive;
+        font-size: 16px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .smdata {
+        display: flex;
+        font-size: 13px;
+        width: 375px;
+    }
     .data {
         display: flex;
         flex-direction: column;
@@ -414,6 +427,18 @@ p {
         font-weight: none;
         font-size: 10px;
     }
-   
+    /* .lcard {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px; 
+        width: 250%;
+        border-radius: 8px;
+        box-shadow: 0px 0px 8px rgb(128 128 128 / 46%);
+        background-color: white;
+        gap: 7px;
+        padding: 10px;
+ 
+    } */
    
 }
