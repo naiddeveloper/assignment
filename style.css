@@ -381,10 +381,11 @@ element.style {
         margin-bottom: 10px;
         text-align: center;
     }
-    .smdata {
-        display: flex;
-        font-size: 13px;
-    }
+   .smdata {
+    display: flex;
+    font-size: 13px;
+    width: 375px;
+}
     .data {
         display: flex;
         flex-direction: column;
